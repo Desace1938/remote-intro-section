@@ -1,0 +1,33 @@
+/* Navbar Container */
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    height: 150px;
+   background-color: hsl(0, 0%, 98%);
+}
+
+ul, a {
+    display:flex;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 5px;
+    text-align: center;
+}
+
+.navBar li {
+    padding: 15px;
+}
+
+
+
+/* Main Section */
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info, p {
+    text-align: center;
+    flex-wrap: wrap;
+}

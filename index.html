@@ -3,10 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Make remote work</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -14,13 +15,14 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body>
 
-    <nav class="topSection">
-      <ul>
+<body>
+  <header>
+    <div class="navBar">
+      <ul class="topLeft">
         <li><div class="dropDown">
-            <button class="dropbtn">Feature
-              <i class="letsGODown"></i>
+            <button class="dropButton">Feature
+              <i class="dropItDown"></i>
             </button>
             <div class="dropdown-content">
               <a href="#">Todo List</a>
@@ -29,10 +31,9 @@
               <a href="#">Planning</a>
             </div>
         </div></li>
-
         <li><div class="dropDown">
-            <button class="dropbtn">Company
-              <i class="letsGODown"></i>
+            <button class="dropButton">Company
+              <i class="dropItDown"></i>
             </button>
             <div class="dropdown-content">
               <a href="#">History</a>
@@ -44,27 +45,35 @@
         <li><a href="">About</a></li>
       </ul>
 
-      <ul class="right">
+      <ul class="topRight">
         <li><a href="">Login</a></li>
         <li><button class="register">Register</button></li>
       </ul>
 
-    </nav>
+    </div>
 
+  </header>
+    
 
-    <section class="info">
-      <h1>Make remote work</h1>
-      <p>Get your team in sync, no matter your location. Streamline processes, 
-        create team rituals, and watch productivity soar.</p>
-      
-      <button>Learn More</button>
-    </section>
-  
+  <section class="container">
+      <section class="info">
+        <h1>Make <br> remote work</br></h1>
+        <p>Get your team in sync, no matter your location. Streamline processes, 
+          create team rituals, and watch productivity soar.</p>
+        
+        <button>Learn More</button>
+      </section>
 
+      <section class="mainImage">
+        <img src="image-hero-desktop.png" alt="Human Working on Laptop" width="300" height="600">
+      </section>
+
+  </section>
+    
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Desiree Aceves</a>.
+    Coded by <a href="https://github.com/Desace1938">Desiree Aceves</a>.
   </div>
 </body>
 </html>
