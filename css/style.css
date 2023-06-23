@@ -4,6 +4,11 @@
       background-color: hsl(0, 0%, 98%);
     }
   }
+  @media only screen and (min-width: 375px) {
+    body {
+      background-color: hsl(0, 0%, 98%);
+    }
+  }
 
 /*#####################################################*/
 /*#####################################################*/
@@ -32,7 +37,19 @@ ul, a {
 
 /* nav dropdown */
 
+.navBar ul .dropDown .dropButton{
+    border: 1px solid hsl(0, 0%, 98%);
+    background-color: hsl(0, 0%, 98%);
+    color:hsl(0, 0%, 41%);
+}
 
+.navBar .topRight .register{
+    background-color: hsl(0, 0%, 98%);
+    border: 1.5px solid hsl(0, 0%, 41%);
+    color:hsl(0, 0%, 41%);
+    border-radius: 11px;
+    padding: 10px 17px;
+}
 
 
 /*#####################################################*/
@@ -53,18 +70,29 @@ ul, a {
 .info h1 {
     font-size: 70px;
     color:hsl(0, 0%, 8%);
+    margin-bottom: 50px;
 }
 .info p{
     font-size: 18px;
     color: hsl(0, 0%, 41%);
+    margin: 0 0 50px 0;
 
+}
+
+.container .info button{
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 98%);
+    font-size: 15px;
+    border-radius: 11px;
+    padding: 10px 25px;
 }
 
 
 /* image */
 
 .mainImage img{
-    padding: 0 40px 40px 40px;
+    margin: 50px;
+    padding: 40px;
 }
 
 /*#####################################################*/
@@ -72,6 +100,5 @@ ul, a {
 /* Footer */
 .attribution{
     display: flex;
-
     background-color: hsl(0, 0%, 98%);
 }
