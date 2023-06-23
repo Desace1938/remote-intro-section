@@ -57,9 +57,9 @@ ul, a {
 /* Main Section */
 .container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background-color: hsl(0, 0%, 98%);
-    padding: 60px;
+    margin: 30px 80px 80px 80px;
 }
 
 .info, p {
@@ -80,6 +80,7 @@ ul, a {
 }
 
 .container .info button{
+    border-color:hsl(0, 0%, 8%);
     background-color: hsl(0, 0%, 8%);
     color: hsl(0, 0%, 98%);
     font-size: 15px;
@@ -92,7 +93,7 @@ ul, a {
 
 .mainImage img{
     margin: 50px;
-    padding: 40px;
+    /* padding: 40px; */
 }
 
 /*#####################################################*/
