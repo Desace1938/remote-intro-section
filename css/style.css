@@ -1,10 +1,19 @@
+/* Widths */
+@media only screen and (max-width: 1440px) {
+    body {
+      background-color: hsl(0, 0%, 98%);
+    }
+  }
+
+/*#####################################################*/
+/*#####################################################*/
 /* Navbar Container */
 .navBar{
     display: flex;
     justify-content: space-between;
     padding: 0;
     height: 150px;
-   background-color: hsl(0, 0%, 98%);
+    background-color: hsl(0, 0%, 98%);
 }
 
 ul, a {
@@ -13,6 +22,7 @@ ul, a {
     text-decoration: none;
     padding: 5px;
     text-align: center;
+    color:hsl(0, 0%, 41%);
 }
 
 .navBar li {
@@ -20,14 +30,48 @@ ul, a {
 }
 
 
+/* nav dropdown */
 
+
+
+
+/*#####################################################*/
+/*#####################################################*/
 /* Main Section */
 .container{
     display: flex;
     justify-content: space-between;
+    background-color: hsl(0, 0%, 98%);
+    padding: 60px;
 }
 
 .info, p {
-    text-align: center;
+    text-align: left;
     flex-wrap: wrap;
+}
+
+.info h1 {
+    font-size: 70px;
+    color:hsl(0, 0%, 8%);
+}
+.info p{
+    font-size: 18px;
+    color: hsl(0, 0%, 41%);
+
+}
+
+
+/* image */
+
+.mainImage img{
+    padding: 0 40px 40px 40px;
+}
+
+/*#####################################################*/
+/*#####################################################*/
+/* Footer */
+.attribution{
+    display: flex;
+
+    background-color: hsl(0, 0%, 98%);
 }
