@@ -57,7 +57,7 @@ ul, a {
 /* Main Section */
 .container{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     background-color: hsl(0, 0%, 98%);
     margin: 30px 80px 80px 80px;
 }
