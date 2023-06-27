@@ -2,23 +2,6 @@
 
 This is a solution to the [Intro section with dropdown navigation challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5). 
 
-## Table of contents
-
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
-## Overview
 
 ### The challenge
 
@@ -57,4 +40,3 @@ During this project, I struggled with creating the dropdown navigation bar.  I u
 
 - [Example resource 1](https://www.w3docs.com/snippets/css/how-to-create-a-drop-down-navigation-menu-with-css.html)
 - [Example resource 2](https://moderncss.dev/css-only-accessible-dropdown-navigation-menu/)
-
