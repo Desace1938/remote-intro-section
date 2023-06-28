@@ -99,7 +99,9 @@ ul, a {
 /*#####################################################*/
 /*#####################################################*/
 /* Footer */
-.attribution{
+.attribution p{
     display: flex;
+    text-align: center;
+    justify-content: space-evenly;
     background-color: hsl(0, 0%, 98%);
 }
