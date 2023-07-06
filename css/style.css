@@ -1,4 +1,4 @@
-/* Widths */
+Widths
 @media only screen and (max-width: 1440px) {
     body {
       background-color: hsl(0, 0%, 98%);
@@ -18,7 +18,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 6%;
-    width: 100%;
+    /* width: 100%; */
     height: 150px;
     background-color: hsl(0, 0%, 98%);
 }
@@ -44,6 +44,7 @@
   color: hsl(0, 0%, 41%);
 }
 
+
 /* Right navbar and button */
 
 .navBar .topRight .register{
@@ -55,28 +56,72 @@
 }
 
 .dropDown-Content {
+  display: none;
+}
+
+.navBar ul li:hover .dropDown-Content {
     display: block;
     position: absolute;
     background-color: white;
-    left: 0;
-    top: 50%;
-    width: 100px;
-    height: 150px;
-    border: 1px solid pink;
+    right: 3%;
+    top: 150%;
+    width: 120px;
+    height: 120px;
+    border-radius: 7px;
+    box-shadow: 2px 2px 12px lightgray;
+    padding-top: 15px;
   }
 
-.dropDown-Content ul {
+.dropDown-Content li {
     display: block;
+    justify-content: space-between;
+    color:hsl(0, 0%, 41%);
+    font-size: 14px;
     text-decoration: none;
-    margin: 10px;
-    padding: 0;
+    margin: 5px;
+    padding: 5px;
   }
 
   .dropDown-Content ul li {
+    width: 25px;
+    text-align: center;
+    padding: 0;
+  }
+
+  .dropDown-Content ul li a {
+    padding-top: 30px;
+  }
+
+
+/* Second Drop Down  */
+  .dropDown-ContentTwo{
+    display: none;
+  }
+
+  .navBar ul li:hover .dropDown-ContentTwo {
+    display: block;
+    position: absolute;
+    background-color: white;
+    left: 35%;
+    top: 150%;
+    width: 100px;
+    height: 100px;
+    border-radius: 7px;
+    box-shadow: 2px 2px 12px lightgray;
+    padding-top: 15px;
+  }
+
+.dropDown-ContentTwo ul {
+    display: block;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 0px;
+  }
+
+  .dropDown-ContentTwo ul li {
     width: 40px;
     text-align: center;
   }
-
 
 /*#####################################################*/
 /*#####################################################*/
@@ -125,9 +170,15 @@
 /*#####################################################*/
 /*#####################################################*/
 /* Footer */
-.attribution p{
+.attribution p {
     display: flex;
     text-align: center;
     justify-content: space-evenly;
     background-color: hsl(0, 0%, 98%);
+    margin: 3%;
+}
+
+.attribution a {
+  text-decoration: none;
+  color: lavender;
 }
