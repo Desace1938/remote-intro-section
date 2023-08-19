@@ -127,9 +127,13 @@
 /* Main Section */
 .container{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     background-color: hsl(0, 0%, 98%);
-    margin: 30px 80px 80px 80px;
+    margin: 20px 60px 60px 60px;
+}
+
+section > .info{
+  width: 600px;
 }
 
 .info, p {
@@ -161,8 +165,14 @@
 
 /* image */
 
+/* section > .mainImage{
+  width: 600px;
+  height: 900px;
+} */
 .mainImage img{
-    margin: 50px;
+    margin: 30px;
+    width: 425px;
+    height: 500px;
     /* padding: 40px; */
 }
 
