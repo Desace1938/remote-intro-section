@@ -5,7 +5,7 @@
 
 /* On mobile, please make all sections stack  */
 
-@media all and (max-width:375px){
+/* @media all and (max-width:375px){
   body{
     background-color: hsl(0, 0%, 98%);
   }
@@ -17,11 +17,11 @@
     width: 100%;
   }
 
-}
+} */
 
 /* On tablet, please make the sections in main stack  */
 
-@media all and (max-width:850px){
+/* @media all and (max-width:850px){
   .info {
     width: 100%;
   }
@@ -29,20 +29,20 @@
   .mainImage{
     width: 100%;
   }
-}
+} */
 
 /* On laptop, please keep the normal layout, but everything should be light green */
 
-@media all and (mid-width:851px){
+/* @media all and (mid-width:851px){
   body {
     background-color: hsl(0, 0%, 98%);
   }
-  }
+  } */
 
 
 /* On larger screens, please keep the normal layout, but everything should be light blue */
 
-@media all and (mid-width: 1440px){
+/* @media all and (mid-width: 1440px){
   body {
     background-color: hsl(0, 0%, 98%);
   }
@@ -95,7 +95,7 @@
     border: 1.5px solid hsl(0, 0%, 8%);
     color:hsl(0, 0%, 8%);
     border-radius: 11px;
-    padding: 10px 17px;
+    padding: 10px 16px;
 }
 
 .dropDown-Content {
@@ -176,9 +176,9 @@
     margin: 20px 60px 60px 60px;
 }
 
-section > .info{
+/* section > .info{
   width: 600px;
-}
+} */
 
 .info, p {
     text-align: left;
