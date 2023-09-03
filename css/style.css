@@ -132,6 +132,7 @@
   width: 600px;
 } */
 
+
 .info, p {
     text-align: left;
     flex-wrap: wrap;
@@ -160,16 +161,10 @@
 
 
 /* image */
-
-/* section > .mainImage{
-  width: 600px;
-  height: 900px;
-} */
 .mainImage img{
     margin: 30px;
     width: 425px;
     height: 500px;
-    /* padding: 40px; */
 }
 
 /*#####################################################*/
@@ -198,14 +193,21 @@
 
 @media only screen and (max-width: 375px){
 
-
   .navBar{
     display: none;
   }
-
   .container{
     display: grid;
     grid-template-columns: 1fr;
+    flex-direction: column;
+}
+
+.info{
+  order:2;
+}
+
+.mainImage{
+  order:1;
 }
 
 .info h1 {
@@ -213,19 +215,21 @@
   text-align: center;
   font-size: 45px;
   color:hsl(0, 0%, 8%);
-  margin-bottom: 25px;
+  /* margin-bottom: 15px; */
+  margin: 10px;
+  
 }
 .info p{
   width: 100%;
   text-align: center;
   font-size: 14px;
   color: hsl(0, 0%, 41%);
-  margin: 0 0 20px 0;
-
+  /* margin: 0 0 20px 0; */
+  margin: 10px;
 }
 
 .container .info button{
-  display: flex;
+  display: center;
   border-color:hsl(0, 0%, 8%);
   background-color: hsl(0, 0%, 8%);
   color: hsl(0, 0%, 98%);
@@ -234,8 +238,8 @@
   padding: 5px 12.5px;
 }
 .mainImage img{
-  margin: 30px;
-  width: 250px;
+  margin: 0px;
+  width: 300px;
   height: 250px;
   /* padding: 40px; */
 }
