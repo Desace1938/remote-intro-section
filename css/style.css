@@ -27,7 +27,7 @@
   position: relative;
 }
 
-.navBar ul li a {
+.navBar ul li > a {
   padding: 16px;
   color: hsl(0, 0%, 8%);
   text-decoration: none;
@@ -42,8 +42,11 @@
 
 /* Right navbar and button */
 
-.navBar .topRight .login{
+.navBar .topRight {
   margin-top: 25px;
+}
+.login{
+  margin-top: 10px;
 }
 
 .navBar .topRight .register{
@@ -65,8 +68,8 @@
     background-color: white;
     right: 3%;
     top: 160%;
-    width: 160px;
-    height: 150px;
+    width: 140px;
+    height: 125px;
     border-radius: 7px;
     box-shadow: 2px 2px 12px lightgray;
     padding-top: 15px;
@@ -89,9 +92,13 @@
     padding: 0;
   }
 
-  .dropDown-Content ul li a {
-    padding-top: 30px;
+  .dropDown-Content a{
+    display: flex;
+    padding: 5px;
+    text-decoration: none;
+    justify-content: space-evenly;
   }
+
 
 
 /* Second Drop Down  */
@@ -103,21 +110,22 @@
     display: block;
     position: absolute;
     background-color: white;
-    left: 35%;
+    left: 10%;
     top: 150%;
     width: 100px;
     height: 100px;
     border-radius: 7px;
     box-shadow: 2px 2px 12px lightgray;
     padding-top: 15px;
+    z-index: 100;
   }
 
-.dropDown-ContentTwo ul {
-    display: block;
-    font-size: 16px;
-    text-decoration: none;
-    margin: 0px;
-    font-family: Epilogue, sans-serif;
+.dropDown-ContentTwo a {
+      display: flex;
+      padding: 5px;
+      text-decoration: none;
+      text-align: left;
+      padding-left: 10px;
   }
 
   .dropDown-ContentTwo ul li {
@@ -225,7 +233,7 @@
 .info h1 {
   width: 100%;
   text-align: center;
-  font-size: 45px;
+  font-size: 25px;
   color:hsl(0, 0%, 8%);
   /* margin-bottom: 15px; */
   margin: 10px;
