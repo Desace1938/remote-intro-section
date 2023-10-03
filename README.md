@@ -2,8 +2,6 @@
 
 This is a solution to the [Intro section with dropdown navigation challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5). 
 
-<img src="./gif-preview.gif" alt="readme-preview">
-
 ### The challenge
 
 Users should be able to:
@@ -12,15 +10,8 @@ Users should be able to:
 - View the optimal layout for the content depending on their device's screen size
 - See hover states for all interactive elements on the page
 
-### Screenshot
-
-
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
-## My process
+### My live Screenshot
+<img src="./gif-preview.gif" alt="readme-preview">
 
 ### Built with
 
