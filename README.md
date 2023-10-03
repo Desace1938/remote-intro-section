@@ -2,7 +2,7 @@
 
 This is a solution to the [Intro section with dropdown navigation challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5). 
 
-<img src="./gif-preview.gif" alt="readme-preview" height="700">
+<img src="./gif-preview.gif" alt="readme-preview">
 
 ### The challenge
 
