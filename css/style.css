@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@200;300;400;500;700;800&family=Roboto&display=swap");
+
 * {
   background-color: hsl(0, 0%, 98%);
   
@@ -7,15 +9,16 @@
 /*#####################################################*/
 /* Navbar Container */
 .navBar{
-   font-family: Epilogue, sans-serif;
+   font-family: 'Epilogue', sans-serif;
+   font-size: 12px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 0 4%;
+    padding: 0 2.5%;
     height: 60px;
     background-color: hsl(0, 0%, 98%);
     
 }
+
 
 .navBar ul {
   display: flex;
@@ -28,32 +31,44 @@
 }
 
 .navBar ul li > a {
-  padding: 16px;
-  color: hsl(0, 0%, 8%);
+  padding-right: 2.5em;
   text-decoration: none;
-  color: hsl(0, 0%, 41%);
+  color: hsl(0, 0%, 58%);
+  font-family: 'Epilpogue', sans-serif;
+  font-weight: 600;
   /* transition: all 0.4s; */
 }
 
 .navBar ul li a:hover {
-  color: hsl(0, 0%, 41%);
+  color: hsl(0, 0%, 8%);
 }
 
+.logo img{
+  width: 6em;
+  z-index: 10;
+  margin-right: 2em;
+}
 
+.topLeft{
+
+}
 /* Right navbar and button */
 
 .navBar .topRight {
   margin-top: 25px;
+  margin-left: auto;
 }
 .login{
   margin-top: 10px;
 }
 
+
 .navBar .topRight .register{
-    font-family: Epilogue,sans-serif;
+    font-family: "Epilogue",sans-serif;
+    font-size: 12px;
     background-color: hsl(0, 0%, 98%);
-    border: 1.5px solid hsl(0, 0%, 8%);
-    color:hsl(0, 0%, 8%);
+    border: 1.5px solid hsl(0, 0%, 41%);;
+    color:hsl(0, 0%, 41%);;
     border-radius: 11px;
     padding: 10px 16px;
 }
@@ -83,7 +98,7 @@
     text-decoration: none;
     margin: 5px;
     padding: 5px;
-    font-family: Epilogue, sans-serif;
+    font-family: 'Epilogue', sans-serif;
   }
 
   .dropDown-Content ul li {
@@ -147,23 +162,30 @@
   width: 600px;
 } */
 
+.info {
+  width: 46%;
+  margin-right: 3%;
+}
 
 .info, p {
     text-align: left;
     flex-wrap: wrap;
+    
 }
 
 .info h1 {
-    font-size: 70px;
+    font-size: 62px;
     color:hsl(0, 0%, 8%);
-    margin-bottom: 50px;
-    font-family: Epilogue, sans-serif;
+    margin-bottom: 45px;
+    font-family: 'Epilogue', sans-serif;
 }
 .info p{
-    font-size: 18px;
     color: hsl(0, 0%, 41%);
-    margin: 0 0 60px 0;
-    font-family: Epilogue, sans-serif;
+    margin: 0 0 55px 0;
+    font-family: 'Epilogue', sans-serif;
+    line-height: 1.7em;
+    font-weight: 500;
+    font-size: 15px;
 
 }
 
@@ -171,18 +193,37 @@
     border-color:hsl(0, 0%, 8%);
     background-color: hsl(0, 0%, 8%);
     color: hsl(0, 0%, 98%);
-    font-size: 15px;
+    font-size: 13px;
     border-radius: 11px;
-    padding: 10px 25px;
-    font-family: Epilogue, sans-serif;
+    padding: 13px 25px;
+    font-family: 'Epilogue', sans-serif;
+    cursor: pointer;
 }
 
+.info button:hover{
+  background: hsl(0, 0%, 98%);
+  color: hsl(0, 0%, 8%);
+
+}
+
+.clients {
+  margin-top: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.clients img{
+  width: 80px;
+  margin-right:2%;
+}
 
 /* image */
 .mainImage img{
-    margin: 30px;
-    width: 425px;
-    height: 480px;
+    margin: 25px;
+    width: 400px;
+    height: 520px;
 }
 
 /*#####################################################*/
@@ -194,13 +235,7 @@
     justify-content: space-evenly;
     background-color: hsl(0, 0%, 98%);
     margin: 1.5%;
-    font-family: Epilogue, sans-serif;
-}
-
-.attribution a {
-  text-decoration: none;
-  color: lavender;
-  font-family: Epilogue, sans-serif;
+    font-family: 'Epilogue', sans-serif;
 }
 
 
